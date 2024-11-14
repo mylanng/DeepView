@@ -22,6 +22,6 @@ def create_test_masks(mesh_dir, output_mask_dir, dimensions=(1280, 768, 768)):
         print(f"Generated and saved mask for {ply_file} to {output_file}")
 
 # Define paths for test meshes and output directory for masks
-mesh_dir = "DeepView_code/testing/meshes"
-output_mask_dir = "DeepView_code/testing/masks"
+mesh_dir = "testing/meshes"
+output_mask_dir = "testing/masks"
 create_test_masks(mesh_dir, output_mask_dir)
