@@ -5,7 +5,7 @@ from scipy.ndimage import binary_dilation
 import random
 
 # Define directories
-raw_data_dir = "training/volumescd"
+raw_data_dir = "training/volumes"
 ply_data_dir = "training/meshes"
 output_mask_dir = "output_masks"
 
