@@ -5,9 +5,9 @@ from scipy.ndimage import binary_dilation
 import random
 
 # Define directories
-raw_data_dir = "DeepView_code/training/volumes"
-ply_data_dir = "DeepView_code/training/meshes"
-output_mask_dir = "DeepView_code/output_masks"
+raw_data_dir = "training/volumescd"
+ply_data_dir = "training/meshes"
+output_mask_dir = "output_masks"
 
 # Dimensions for reshaping volumes
 volume_dimensions = (1280, 768, 768)
