@@ -5,8 +5,8 @@ import os
 import numpy as np
 
 # Define directories
-data_dir = "DeepView_code/output_masks"
-output_dir = "DeepView_code/predictions"
+data_dir = "output_masks"
+output_dir = "predictions"
 os.makedirs(output_dir, exist_ok=True)
 
 # Hyperparameters
