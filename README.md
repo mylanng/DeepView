@@ -43,7 +43,7 @@ The `VolumetricToMeshModel` uses a 3D Convolutional Neural Network (3D-CNN) back
 - **Fully Connected Layers**: Map latent features to 3D vertex predictions.
 
 ### 3. Training
-- Loss Function: Mean Squared Error (MSE) between predicted and ground truth mesh vertices.
+- Loss Function: Mean Squared Error (MSE) between predicted and ground truth mesh vertices. The lower the value is, the better. 
 - Optimizer: Adam with a learning rate of 1e-4.
 - Training Process:
   - Input: Preprocessed volumetric images.
