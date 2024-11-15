@@ -87,7 +87,6 @@ class VolumetricMeshDataset(tf.data.Dataset):
 
         return dataset
 
-# Example usage
 if __name__ == "__main__": 
     volumes_dir = "training/volumes"
     meshes_dir = "DeepView_code/training/meshes"
