@@ -31,7 +31,7 @@ We recommend using [ParaView](https://www.paraview.org) (version 5.9.1) for visu
 ### 1. Preprocessing
 - **Volumes**:
   - Normalize intensity values to the range [0, 1].
-  - Resize volumes to a uniform shape (e.g., 128x128x128 or 64x64x64 for optimization).
+  - Resize volumes to a uniform shape (e.g., 128x128x128 in this case for optimization).
 - **Meshes**:
   - Center vertex coordinates.
   - Normalize mesh dimensions to fit within a unit sphere.
