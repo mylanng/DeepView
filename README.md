@@ -55,21 +55,30 @@ The `VolumetricToMeshModel` uses a 3D Convolutional Neural Network (3D-CNN) back
 
 ## Instructions
 
-### 1. Training
+### 1. Dataset directory
+Make sure that the training folder and testing folder is in the same root directory as README.md and Report.ipynb
+project_root/
+├── source/
+├── testing/
+├── training/
+├── Report.ipynb
+└── README.md
+
+### 2. Training
 Run the training script to preprocess data and train the model:
 ```bash
 python harry_model.py
 ```
-This will save the trained model as `volumetric_to_mesh_model.keras` in the `DeepView_code/Harry/` directory.
+This will save the trained model as `volumetric_to_mesh_model.keras` in the `source/` directory.
 
-### 2. Evaluation
+### 3. Evaluation
 Run the evaluation script to compute Chamfer and Hausdorff distances:
 ```bash
 python model_eval.py
 ```
 Ensure the `testing/` directory contains the volumetric and mesh files for testing.
 
-### 3. Report
+### 4. Report
 The project includes a Jupyter notebook report (`report.ipynb`) documenting the methodology, results, and analysis. To view the report:
 ```bash
 jupyter notebook report.ipynb
