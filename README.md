@@ -59,7 +59,7 @@ The `VolumetricToMeshModel` uses a 3D Convolutional Neural Network (3D-CNN) back
 ## Instructions
 
 ### 1. Dataset directory
-Make sure that the training folder and testing folder is in the same root directory as README.md and Report.ipynb.
+Make sure that the training and testing folder are in the same root directory as README.md and Report.ipynb.
 
 ### 2. Training
 Run the training script to preprocess data and train the model:
