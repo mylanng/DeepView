@@ -19,7 +19,10 @@ This project aims to develop a deep learning model that estimates the surface me
 - **Volume Dimension**: (768, 768, 1280)
 
 ### Visualization
-We recommend using [ParaView](https://www.paraview.org) (version 5.9.1) for visualizing volumetric data and meshes. Proper alignment can be achieved using the provided metadata.
+We recommend using [ParaView](https://www.paraview.org) (version 5.9.1) for visualizing volumetric data and meshes. Proper alignment can be achieved using the provided metadata. Some suggestions to visualize the data:
+- Data Scalar Type: unsigned short
+- Data Byte Order: LittleEndian
+- Data Extent: 768 x 768 x 1280
 
 ---
 
