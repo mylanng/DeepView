@@ -53,23 +53,6 @@ The `VolumetricToMeshModel` uses a 3D Convolutional Neural Network (3D-CNN) back
 
 ---
 
-## File Structure
-```
-DeepView_code/
-├── training/
-│   ├── volumes/       # Raw volumetric images (.raw files)
-│   ├── meshes/        # Reference meshes (.ply files)
-├── testing/
-│   ├── volumes/       # Test volumetric images (.raw files)
-│   ├── meshes/        # Test meshes (.ply files)
-├── harry_model.py     # Model training script
-├── model_eval.py      # Evaluation script
-├── report.ipynb       # Jupyter notebook report
-├── README.md          # Project documentation
-```
-
----
-
 ## Instructions
 
 ### 1. Training
