@@ -89,7 +89,7 @@ class VolumetricMeshDataset(tf.data.Dataset):
 
 if __name__ == "__main__": 
     volumes_dir = "training/volumes"
-    meshes_dir = "DeepView_code/training/meshes"
+    meshes_dir = "training/meshes"
 
     dataset = VolumetricMeshDataset(volumes_dir, meshes_dir)
     train_size = int(0.8 * len(list(dataset)))
@@ -106,6 +106,6 @@ if __name__ == "__main__":
 
     # Fit the model
     model.fit(train_dataset, epochs=1, validation_data=test_dataset)
-    model.save("DeepView_code/Harry/volumetric_to_mesh_model.keras")
+    model.save("source/volumetric_to_mesh_model.keras")
 
 
