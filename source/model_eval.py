@@ -81,13 +81,13 @@ class VolumetricToMeshModel(tf.keras.Model):
 
 # Load the saved model
 model = tf.keras.models.load_model(
-    "DeepView_code/Harry/volumetric_to_mesh_model.keras",
+    "source/volumetric_to_mesh_model.keras",
     custom_objects={"VolumetricToMeshModel": VolumetricToMeshModel}
 )
 
 # Testing data directories
-test_volumes_dir = "DeepView_code/testing/volumes"
-test_meshes_dir = "DeepView_code/testing/meshes"
+test_volumes_dir = "testing/volumes"
+test_meshes_dir = "testing/meshes"
 
 # Prepare test dataset
 def preprocess(volume_path, mesh_path):
