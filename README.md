@@ -1,6 +1,5 @@
-# DeepView
+# DeepView Competition - 1st Place
 # Volumetric to Surface Mesh Estimation
-# 1st Place in DeepView Competition
 
 ## Problem Statement
 This project aims to develop a deep learning model that estimates the surface mesh of a given volumetric ultrasound image. Each volume is a separate scan containing a piece (or connected pieces) of steel pipe, with or without an object inside the pipe, and with or without debris/dirt at the bottom of the pipe. The solution must address the challenge of mapping raw 3D volumetric data to structured surface meshes for applications such as industrial inspection, medical imaging, and 3D modeling.
